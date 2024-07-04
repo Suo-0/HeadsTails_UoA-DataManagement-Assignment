@@ -23,6 +23,6 @@ int main(){
     }
 
     cout << "Heads: " << hCnt << ", Tails: " << tCnt << endl;
-    cout << "You" << (hCnt > tCnt ? " won!" : " lost!") << endl;
+    cout << name << (hCnt > tCnt ? " won!" : " lost!") << endl;
     return 0;
 }
