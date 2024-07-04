@@ -5,6 +5,12 @@ using namespace std;
 
 int main(){
     int hCnt = 0, tCnt = 0;
+    string name;
+
+    cout << "Who are you?" << endl;
+    cout << "> ";
+    cin >> name;
+    cout << "Hello, " << name << "!" << endl;
 
     cout << "Tossing a coin..." << endl;
 
